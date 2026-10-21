@@ -1,0 +1,511 @@
+{
+  "C-P1": {
+    "essai": "C-P1",
+    "lignes_de_code": 401,
+    "execution": "ok",
+    "duree_execution_s": 0.336,
+    "nb_anomalies_renvoyees": 336,
+    "colonnes_conformes": true,
+    "nb_regles_declenchees": 11,
+    "referentiel": {
+      "A1": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "stock_status incohérent avec stock_quantity [stock_status]"
+      },
+      "A2": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "valeur ≤ 0 [price]"
+      },
+      "A3": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "valeur < 0 [stock_quantity]"
+      },
+      "A4": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 0.57,
+        "regle": "prix d'achat ≥ prix de vente [purchase_price]"
+      },
+      "A5": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "valeur manquante [sku]"
+      },
+      "A6": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "valeur < 0 [total_sales]"
+      },
+      "A7": {
+        "verdict": "manquee",
+        "rappel": 0.0,
+        "precision": 0.0,
+        "regle": null
+      },
+      "A8": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "valeur manquante [post_type]"
+      },
+      "A9": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "valeur manquante [id_web]"
+      },
+      "A10": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "id_web absent des sku produits de web.xlsx [id_web]"
+      }
+    },
+    "score_detection_sur_10": 9,
+    "score_detection_sur_9_hors_A9": 8,
+    "trouvailles_hors_referentiel": {
+      "N1 en vente sans id_web": true,
+      "N2 produit sans famille": false,
+      "N3 stock>0 mais hors vente": false,
+      "N4 hors vente mais publie": false
+    },
+    "regles_hors_referentiel": [
+      {
+        "fichier": "erp",
+        "regle": "[alerte] prix atypique (> Q3 + 1,5 × IQR) [price]",
+        "lignes_hors_referentiel": 33,
+        "lignes_total": 36
+      }
+    ],
+    "T2_faux_doublons_sku": [],
+    "T5_premium_signales": [
+      {
+        "regle": "[alerte] prix atypique (> Q3 + 1,5 × IQR) [price]",
+        "nb_premium": 25
+      },
+      {
+        "regle": "en vente web (onsale_web = 1) sans id_web dans liaison.xlsx [onsale_web]",
+        "nb_premium": 1
+      }
+    ]
+  },
+  "C-P2": {
+    "essai": "C-P2",
+    "lignes_de_code": 585,
+    "execution": "ok",
+    "duree_execution_s": 0.456,
+    "nb_anomalies_renvoyees": 252,
+    "colonnes_conformes": true,
+    "nb_regles_declenchees": 14,
+    "referentiel": {
+      "A1": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "BLOQUANT | ERP-17 | stock_status incohérent avec stock_quantity [stock_status]"
+      },
+      "A2": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "BLOQUANT | ERP-09 | price <= 0 [price]"
+      },
+      "A3": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "BLOQUANT | ERP-14 | stock_quantity < 0 [stock_quantity]"
+      },
+      "A4": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 0.57,
+        "regle": "ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative) [price]"
+      },
+      "A5": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide) [sku]"
+      },
+      "A6": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "BLOQUANT | WEB-12 | total_sales < 0 [total_sales]"
+      },
+      "A7": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "ALERTE | WEB-03 | sku non numérique [sku]"
+      },
+      "A8": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide) [post_type]"
+      },
+      "A9": {
+        "verdict": "partielle",
+        "rappel": 0.03,
+        "precision": 1.0,
+        "regle": "ALERTE | X-04 | id_web vide alors que onsale_web = 1 (inter-fichiers) [id_web]"
+      },
+      "A10": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers) [id_web]"
+      }
+    },
+    "score_detection_sur_10": 9,
+    "score_detection_sur_9_hors_A9": 9,
+    "trouvailles_hors_referentiel": {
+      "N1 en vente sans id_web": true,
+      "N2 produit sans famille": true,
+      "N3 stock>0 mais hors vente": false,
+      "N4 hors vente mais publie": true
+    },
+    "regles_hors_referentiel": [
+      {
+        "fichier": "erp",
+        "regle": "ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR) [price]",
+        "lignes_hors_referentiel": 33,
+        "lignes_total": 36
+      },
+      {
+        "fichier": "liaison",
+        "regle": "ALERTE | LIA-05 | id_web non numérique [id_web]",
+        "lignes_hors_referentiel": 2,
+        "lignes_total": 3
+      }
+    ],
+    "T2_faux_doublons_sku": [],
+    "T5_premium_signales": [
+      {
+        "regle": "ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR) [price]",
+        "nb_premium": 25
+      }
+    ],
+    "jaccard_lignes_vs_bis": 0.701,
+    "jaccard_detections_vs_bis": 0.889
+  },
+  "C-P2bis": {
+    "essai": "C-P2bis",
+    "lignes_de_code": 546,
+    "execution": "ok",
+    "duree_execution_s": 0.448,
+    "nb_anomalies_renvoyees": 317,
+    "colonnes_conformes": true,
+    "nb_regles_declenchees": 16,
+    "referentiel": {
+      "A1": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] ERP-B11 - stock_status cohérent avec stock_quantity [stock_status]"
+      },
+      "A2": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] ERP-B07 - price non négatif [price]"
+      },
+      "A3": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] ERP-B09 - stock_quantity non négatif [stock_quantity]"
+      },
+      "A4": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 0.57,
+        "regle": "[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte) [price]"
+      },
+      "A5": {
+        "verdict": "partielle",
+        "rappel": 0.98,
+        "precision": 1.0,
+        "regle": "[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide) [post_status]"
+      },
+      "A6": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] WEB-B02 - sku renseigné sur une ligne product [sku]"
+      },
+      "A7": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[ALERTE] WEB-A02 - sku non numérique [sku]"
+      },
+      "A8": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide) [post_status]"
+      },
+      "A9": {
+        "verdict": "manquee",
+        "rappel": 0.0,
+        "precision": 0.0,
+        "regle": null
+      },
+      "A10": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx [id_web]"
+      }
+    },
+    "score_detection_sur_10": 8,
+    "score_detection_sur_9_hors_A9": 8,
+    "trouvailles_hors_referentiel": {
+      "N1 en vente sans id_web": true,
+      "N2 produit sans famille": true,
+      "N3 stock>0 mais hors vente": true,
+      "N4 hors vente mais publie": true
+    },
+    "regles_hors_referentiel": [
+      {
+        "fichier": "erp",
+        "regle": "[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier [price]",
+        "lignes_hors_referentiel": 33,
+        "lignes_total": 36
+      },
+      {
+        "fichier": "liaison",
+        "regle": "[ALERTE] LIA-A01 - id_web non numérique [id_web]",
+        "lignes_hors_referentiel": 2,
+        "lignes_total": 3
+      }
+    ],
+    "T2_faux_doublons_sku": [],
+    "T5_premium_signales": [
+      {
+        "regle": "[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier [price]",
+        "nb_premium": 25
+      },
+      {
+        "regle": "[BLOQUANT] X-05 - produit en vente (onsale_web=1) sans id_web dans la liaison [onsale_web]",
+        "nb_premium": 1
+      }
+    ],
+    "jaccard_lignes_vs_bis": 0.701,
+    "jaccard_detections_vs_bis": 0.889
+  },
+  "G-P1": {
+    "essai": "G-P1",
+    "lignes_de_code": 536,
+    "execution": "echec_execution",
+    "duree_execution_s": 0.001,
+    "erreur": "Traceback (most recent call last):\n  File \"/tmp/claude-0/-home-claude/0d5d4a31-6bc1-57f0-ad87-46c30b4864d6/scratchpad/bench/runner.py\", line 40, in <module>\n    res = ns[\"valider\"](erp.copy(), web.copy(), liaison.copy())\n  File \"/tmp/claude-0/-home-claude/0d5d4a31-6bc1-57f0-ad87-46c30b4864d6/scratchpad/essais/resultats/code_G-P1.py\", line 61, in valider\n    Check.notna(name=\"product_id_non_null\"),\n    ^^^^^^^^^^^\n  File \"/tmp/claude-0/-home-claude/0d5d4a31-6bc1-57f0-ad87-46c30b4864d6/scratchpad/venv_bench/lib/python3.13/site-packages/pandera/api/base/checks.py\", line 51, in __getattr__\n    raise AttributeError(\n    ...<3 lines>...\n    )\nAttributeError: '<class 'pandera.api.checks.Check'>' object has no attribute 'notna'. Make sure any custom checks have been registered using the extensions api.. Did you mean: 'notin'?\n"
+  },
+  "G-P2": {
+    "essai": "G-P2",
+    "lignes_de_code": 565,
+    "execution": "ok",
+    "duree_execution_s": 6.523,
+    "nb_anomalies_renvoyees": 301,
+    "colonnes_conformes": true,
+    "nb_regles_declenchees": 18,
+    "referentiel": {
+      "A1": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 0.5,
+        "regle": "Incohérence entre stock_quantity (>0 vs ==0) et stock_status ('instock' vs 'outofstock') [toutes colonnes]"
+      },
+      "A2": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "Le prix de vente HT doit être strictement supérieur à 0 [price]"
+      },
+      "A3": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "La quantité en stock ne peut pas être négative [stock_quantity]"
+      },
+      "A4": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 0.57,
+        "regle": "Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT) [toutes colonnes]"
+      },
+      "A5": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "Le code article (sku) est manquant sur la ligne web [sku]"
+      },
+      "A6": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "total_sales ne peut pas être négatif [total_sales]"
+      },
+      "A7": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "Le SKU contient des caractères non numériques (ex: bon cadeau ou déclinaison) [sku]"
+      },
+      "A8": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] web_post_type_not_nullable [post_type]"
+      },
+      "A9": {
+        "verdict": "manquee",
+        "rappel": 0.0,
+        "precision": 0.0,
+        "regle": null
+      },
+      "A10": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "id_web renseigné dans liaison.xlsx mais absent de web.xlsx [id_web]"
+      }
+    },
+    "score_detection_sur_10": 9,
+    "score_detection_sur_9_hors_A9": 9,
+    "trouvailles_hors_referentiel": {
+      "N1 en vente sans id_web": true,
+      "N2 produit sans famille": true,
+      "N3 stock>0 mais hors vente": false,
+      "N4 hors vente mais publie": true
+    },
+    "regles_hors_referentiel": [
+      {
+        "fichier": "liaison",
+        "regle": "id_web non numérique dans la table de liaison [id_web]",
+        "lignes_hors_referentiel": 2,
+        "lignes_total": 3
+      }
+    ],
+    "T2_faux_doublons_sku": [],
+    "T5_premium_signales": [
+      {
+        "regle": "Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx [product_id]",
+        "nb_premium": 1
+      }
+    ],
+    "jaccard_lignes_vs_bis": 0.341,
+    "jaccard_detections_vs_bis": 0.778
+  },
+  "G-P2bis": {
+    "essai": "G-P2bis",
+    "lignes_de_code": 643,
+    "execution": "ok",
+    "duree_execution_s": 0.295,
+    "nb_anomalies_renvoyees": 85,
+    "colonnes_conformes": true,
+    "nb_regles_declenchees": 16,
+    "referentiel": {
+      "A1": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] ERP_COHERENCE_STOCK_QTY_STATUS : Incohérence entre stock_quantity et stock_status [stock_status]"
+      },
+      "A2": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "greater_than(0) [price]"
+      },
+      "A3": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "greater_than_or_equal_to(0) [stock_quantity]"
+      },
+      "A4": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 0.57,
+        "regle": "[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price) [onsale_web]"
+      },
+      "A5": {
+        "verdict": "partielle",
+        "rappel": 0.02,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] WEB_TOTAL_SALES_INVALIDE : total_sales doit être un entier positif ou nul (>= 0) [total_sales]"
+      },
+      "A6": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[BLOQUANT] WEB_TOTAL_SALES_INVALIDE : total_sales doit être un entier positif ou nul (>= 0) [total_sales]"
+      },
+      "A7": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[ALERTE] WEB_SKU_NON_NUMERIQUE : Le SKU contient des caractères non numériques (ex: bon cadeau) [sku]"
+      },
+      "A8": {
+        "verdict": "manquee",
+        "rappel": 0.0,
+        "precision": 0.0,
+        "regle": null
+      },
+      "A9": {
+        "verdict": "manquee",
+        "rappel": 0.0,
+        "precision": 0.0,
+        "regle": null
+      },
+      "A10": {
+        "verdict": "detectee",
+        "rappel": 1.0,
+        "precision": 1.0,
+        "regle": "[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?) [id_web]"
+      }
+    },
+    "score_detection_sur_10": 7,
+    "score_detection_sur_9_hors_A9": 7,
+    "trouvailles_hors_referentiel": {
+      "N1 en vente sans id_web": true,
+      "N2 produit sans famille": false,
+      "N3 stock>0 mais hors vente": false,
+      "N4 hors vente mais publie": true
+    },
+    "regles_hors_referentiel": [
+      {
+        "fichier": "liaison",
+        "regle": "[ALERTE] LIAISON_ID_WEB_NON_NUMERIQUE : id_web contient des caractères non numériques [id_web]",
+        "lignes_hors_referentiel": 2,
+        "lignes_total": 3
+      }
+    ],
+    "T2_faux_doublons_sku": [],
+    "T5_premium_signales": [
+      {
+        "regle": "[BLOQUANT] INTER_ONSALE_ABSENT_DU_SITE_WEB : Produit marqué onsale_web=1 dans l'ERP mais introuvable dans web.xlsx [onsale_web]",
+        "nb_premium": 1
+      },
+      {
+        "regle": "[BLOQUANT] INTER_ONSALE_SANS_ID_WEB : Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx [onsale_web]",
+        "nb_premium": 1
+      }
+    ],
+    "jaccard_lignes_vs_bis": 0.341,
+    "jaccard_detections_vs_bis": 0.778
+  }
+}

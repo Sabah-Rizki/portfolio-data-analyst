@@ -1,0 +1,68 @@
+{
+  "C-P1": {
+    "Qualité": 26.7,
+    "Robustesse": 15,
+    "Exécution": 15,
+    "Reproductibilité": 11.9,
+    "Sécurité": 5,
+    "Maintenabilité": 3.3,
+    "Temps": 5,
+    "Total": 81.9,
+    "justif_maintenabilite": "pas de justification par règle ; points à vérifier listés ; pas de niveau de gravité"
+  },
+  "C-P2": {
+    "Qualité": 30.0,
+    "Robustesse": 15,
+    "Exécution": 15,
+    "Reproductibilité": 11.9,
+    "Sécurité": 5,
+    "Maintenabilité": 10.0,
+    "Temps": 5,
+    "Total": 91.9,
+    "justif_maintenabilite": "chaque règle justifiée ; 15 hypothèses ; BLOQUANT / ALERTE présent sur toutes les lignes"
+  },
+  "C-P2bis": {
+    "Qualité": 26.7,
+    "Robustesse": 15,
+    "Exécution": 15,
+    "Reproductibilité": 11.9,
+    "Sécurité": 5,
+    "Maintenabilité": 10.0,
+    "Temps": 5,
+    "Total": 88.6,
+    "justif_maintenabilite": "chaque règle justifiée ; 15 hypothèses ; BLOQUANT / ALERTE présent sur toutes les lignes"
+  },
+  "G-P1": {
+    "Qualité": 0,
+    "Robustesse": 0,
+    "Exécution": 0,
+    "Reproductibilité": 8.4,
+    "Sécurité": 5,
+    "Maintenabilité": 0.0,
+    "Temps": 0,
+    "Total": 13.4,
+    "justif_maintenabilite": "commentaires rares ; aucune hypothèse ; pas de niveau de gravité"
+  },
+  "G-P2": {
+    "Qualité": 30.0,
+    "Robustesse": 15,
+    "Exécution": 15,
+    "Reproductibilité": 8.4,
+    "Sécurité": 5,
+    "Maintenabilité": 6.7,
+    "Temps": 2,
+    "Total": 82.1,
+    "justif_maintenabilite": "règles justifiées ; 5 hypothèses ; niveau perdu en sortie pour 218 lignes sur 301"
+  },
+  "G-P2bis": {
+    "Qualité": 23.3,
+    "Robustesse": 15,
+    "Exécution": 15,
+    "Reproductibilité": 8.4,
+    "Sécurité": 5,
+    "Maintenabilité": 10.0,
+    "Temps": 5,
+    "Total": 81.7,
+    "justif_maintenabilite": "règles justifiées ; 4 hypothèses ; niveau visible sur 80 lignes sur 85"
+  }
+}

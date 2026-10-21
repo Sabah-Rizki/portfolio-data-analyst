@@ -1,0 +1,318 @@
+fichier,regle,colonne,index_ligne,valeur
+erp.xlsx,[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte),price,151,-20.0
+erp.xlsx,[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte),price,210,12.65
+erp.xlsx,[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte),price,391,8.3
+erp.xlsx,[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte),price,469,-8.0
+erp.xlsx,[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte),price,724,92.0
+erp.xlsx,[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte),price,739,-9.1
+erp.xlsx,[ALERTE] ERP-A04 - price inférieur au purchase_price (vente à perte),price,817,31.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,19,86.1
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,66,100.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,68,88.4
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,208,225.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,214,85.6
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,227,176.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,228,108.5
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,230,157.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,231,104.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,240,109.6
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,242,144.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,410,102.3
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,411,137.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,460,217.5
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,465,105.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,466,105.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,475,112.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,476,86.8
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,486,84.7
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,545,92.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,551,83.7
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,556,124.8
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,598,175.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,635,191.3
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,650,93.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,651,122.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,652,114.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,697,135.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,702,105.6
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,703,116.4
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,708,115.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,709,121.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,710,99.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,711,115.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,712,121.0
+erp.xlsx,"[ALERTE] ERP-A05 - price atypique (> Q3 + 1.5 x IQR), à confirmer par le métier",price,724,92.0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,123,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,234,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,238,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,239,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,318,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,320,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,352,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,356,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,540,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,541,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,547,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,621,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,724,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,739,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,761,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,762,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,763,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,764,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,765,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,766,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,767,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,768,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,772,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,773,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,776,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,777,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,778,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,779,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,780,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,781,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,782,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,783,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,788,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,789,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,790,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,791,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,794,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,795,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,796,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,797,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,798,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,799,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,800,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,801,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,802,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,803,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,804,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,805,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,806,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,807,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,808,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,809,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,810,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,811,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,812,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,813,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,814,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,815,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,816,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,817,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,818,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,819,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,820,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,821,0
+erp.xlsx,[ALERTE] ERP-A06 - stock disponible (stock_quantity>0) mais onsale_web=0,onsale_web,823,0
+erp.xlsx,[ALERTE] X-07 - produit hors vente (onsale_web=0) mais publié sur le site,onsale_web,123,0
+erp.xlsx,[BLOQUANT] ERP-B07 - price non négatif,price,151,-20.0
+erp.xlsx,[BLOQUANT] ERP-B07 - price non négatif,price,469,-8.0
+erp.xlsx,[BLOQUANT] ERP-B07 - price non négatif,price,739,-9.1
+erp.xlsx,[BLOQUANT] ERP-B09 - stock_quantity non négatif,stock_quantity,449,-10
+erp.xlsx,[BLOQUANT] ERP-B09 - stock_quantity non négatif,stock_quantity,573,-1
+erp.xlsx,[BLOQUANT] ERP-B11 - stock_status cohérent avec stock_quantity,stock_status,4,outofstock
+erp.xlsx,[BLOQUANT] ERP-B11 - stock_status cohérent avec stock_quantity,stock_status,398,instock
+erp.xlsx,[BLOQUANT] X-05 - produit en vente (onsale_web=1) sans id_web dans la liaison,onsale_web,242,1
+erp.xlsx,[BLOQUANT] X-05 - produit en vente (onsale_web=1) sans id_web dans la liaison,onsale_web,486,1
+erp.xlsx,[BLOQUANT] X-05 - produit en vente (onsale_web=1) sans id_web dans la liaison,onsale_web,487,1
+liaison.xlsx,[ALERTE] LIA-A01 - id_web non numérique,id_web,443,bon-cadeau-25-euros
+liaison.xlsx,[ALERTE] LIA-A01 - id_web non numérique,id_web,822,13127-1
+liaison.xlsx,[ALERTE] LIA-A01 - id_web non numérique,id_web,823,14680-1
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,193,13771
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,236,15065
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,241,14785
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,355,12601
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,391,15154
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,394,14360
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,424,15608
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,425,15586
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,470,15272
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,473,15630
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,523,14648
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,540,14715
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,548,14730
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,613,14689
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,660,14379
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,661,15609
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,662,14377
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,664,13577
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,687,15529
+liaison.xlsx,[BLOQUANT] X-03 - id_web renseigné présent parmi les sku 'product' de web.xlsx,id_web,823,14680-1
+web.xlsx,[ALERTE] WEB-A02 - sku non numérique,sku,272,13127-1
+web.xlsx,[ALERTE] WEB-A02 - sku non numérique,sku,842,bon-cadeau-25-euros
+web.xlsx,[ALERTE] WEB-A02 - sku non numérique,sku,1117,13127-1
+web.xlsx,[ALERTE] WEB-A02 - sku non numérique,sku,1387,bon-cadeau-25-euros
+web.xlsx,[ALERTE] WEB-A11 - product_type renseigné sur une ligne product,product_type,1387,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,8,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,20,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,30,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,37,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,41,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,47,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,55,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,75,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,94,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,127,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,130,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,136,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,153,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,162,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,169,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,184,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,198,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,199,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,244,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,264,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,269,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,290,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,319,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,339,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,352,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,359,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,364,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,373,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,376,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,379,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,409,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,421,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,425,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,515,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,522,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,541,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,550,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,557,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,602,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,612,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,622,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,639,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,640,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,666,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,678,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,696,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,703,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,714,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,717,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,726,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,778,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,797,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,819,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,822,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,829,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,836,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,944,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,947,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,968,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,971,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,987,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1005,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1018,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1045,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1065,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1086,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1098,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1135,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1137,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1151,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1194,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1231,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1244,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1254,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1263,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1301,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1329,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1332,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1384,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1429,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1432,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1445,
+web.xlsx,[ALERTE] WEB-A13 - post_status parmi les statuts WordPress (ligne non vide),post_status,1457,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,8,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,20,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,30,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,37,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,41,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,47,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,55,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,75,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,94,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,127,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,130,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,136,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,153,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,162,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,169,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,184,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,198,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,199,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,244,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,264,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,269,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,290,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,319,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,339,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,352,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,359,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,364,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,373,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,376,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,379,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,409,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,421,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,425,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,515,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,522,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,541,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,550,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,557,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,602,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,612,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,622,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,639,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,640,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,666,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,678,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,696,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,703,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,714,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,717,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,726,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,778,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,797,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,819,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,822,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,829,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,836,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,944,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,947,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,968,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,971,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,987,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1005,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1018,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1045,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1065,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1086,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1098,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1135,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1137,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1151,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1194,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1231,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1244,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1254,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1263,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1301,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1329,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1332,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1384,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1429,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1432,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1445,
+web.xlsx,[BLOQUANT] WEB-B01 - post_type égal à 'product' ou 'attachment' (ligne non vide),post_type,1457,
+web.xlsx,[BLOQUANT] WEB-B02 - sku renseigné sur une ligne product,sku,1084,
+web.xlsx,[BLOQUANT] WEB-B02 - sku renseigné sur une ligne product,sku,1087,
+web.xlsx,[BLOQUANT] WEB-B04 - total_sales numérique et non négatif,total_sales,1084,-56.0
+web.xlsx,[BLOQUANT] WEB-B04 - total_sales numérique et non négatif,total_sales,1087,-17.0

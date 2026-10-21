@@ -1,0 +1,86 @@
+fichier,regle,colonne,index_ligne,valeur
+erp.xlsx,[BLOQUANT] ERP_COHERENCE_STOCK_QTY_STATUS : Incohérence entre stock_quantity et stock_status,stock_status,4,outofstock
+erp.xlsx,[ALERTE] INTER_OFFSALE_PRESENT_SUR_WEB : Produit marqué onsale_web=0 dans l'ERP mais toujours présent dans web.xlsx,onsale_web,123,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),onsale_web,151,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),price,151,-20.0
+erp.xlsx,greater_than(0),price,151,-20.0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),product_id,151,4233
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),purchase_price,151,10.33
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_quantity,151,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_status,151,outofstock
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),onsale_web,210,1
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),price,210,12.65
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),product_id,210,4355
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),purchase_price,210,77.48
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_quantity,210,97
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_status,210,instock
+erp.xlsx,[BLOQUANT] INTER_ONSALE_ABSENT_DU_SITE_WEB : Produit marqué onsale_web=1 dans l'ERP mais introuvable dans web.xlsx,onsale_web,242,1
+erp.xlsx,[BLOQUANT] INTER_ONSALE_SANS_ID_WEB : Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx,onsale_web,242,1
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),onsale_web,391,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),price,391,8.3
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),product_id,391,4864
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),purchase_price,391,9.99
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_quantity,391,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_status,391,outofstock
+erp.xlsx,[BLOQUANT] ERP_COHERENCE_STOCK_QTY_STATUS : Incohérence entre stock_quantity et stock_status,stock_status,398,instock
+erp.xlsx,greater_than_or_equal_to(0),stock_quantity,449,-10
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),onsale_web,469,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),price,469,-8.0
+erp.xlsx,greater_than(0),price,469,-8.0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),product_id,469,5017
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),purchase_price,469,4.34
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_quantity,469,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_status,469,outofstock
+erp.xlsx,[BLOQUANT] INTER_ONSALE_ABSENT_DU_SITE_WEB : Produit marqué onsale_web=1 dans l'ERP mais introuvable dans web.xlsx,onsale_web,486,1
+erp.xlsx,[BLOQUANT] INTER_ONSALE_SANS_ID_WEB : Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx,onsale_web,486,1
+erp.xlsx,[BLOQUANT] INTER_ONSALE_ABSENT_DU_SITE_WEB : Produit marqué onsale_web=1 dans l'ERP mais introuvable dans web.xlsx,onsale_web,487,1
+erp.xlsx,[BLOQUANT] INTER_ONSALE_SANS_ID_WEB : Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx,onsale_web,487,1
+erp.xlsx,greater_than_or_equal_to(0),stock_quantity,573,-1
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),onsale_web,724,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),price,724,92.0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),product_id,724,6324
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),purchase_price,724,99.0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_quantity,724,18
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_status,724,instock
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),onsale_web,739,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),price,739,-9.1
+erp.xlsx,greater_than(0),price,739,-9.1
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),product_id,739,6594
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),purchase_price,739,4.61
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_quantity,739,19
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_status,739,instock
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),onsale_web,817,0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),price,817,31.0
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),product_id,817,7196
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),purchase_price,817,31.2
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_quantity,817,55
+erp.xlsx,[BLOQUANT] ERP_MARGE_NEGATIVE : Prix de vente HT (price) inférieur au prix d'achat HT (purchase_price),stock_status,817,instock
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,193,13771
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,236,15065
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,241,14785
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,355,12601
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,391,15154
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,394,14360
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,424,15608
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,425,15586
+liaison.xlsx,[ALERTE] LIAISON_ID_WEB_NON_NUMERIQUE : id_web contient des caractères non numériques,id_web,443,bon-cadeau-25-euros
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,470,15272
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,473,15630
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,523,14648
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,540,14715
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,548,14730
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,613,14689
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,660,14379
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,661,15609
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,662,14377
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,664,13577
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,687,15529
+liaison.xlsx,[ALERTE] LIAISON_ID_WEB_NON_NUMERIQUE : id_web contient des caractères non numériques,id_web,822,13127-1
+liaison.xlsx,[ALERTE] INTER_LIAISON_ID_WEB_ABSENT_DE_WEB : id_web renseigné dans liaison.xlsx mais absent de web.xlsx (produit dépublié ou erreur de saisie ?),id_web,823,14680-1
+liaison.xlsx,[ALERTE] LIAISON_ID_WEB_NON_NUMERIQUE : id_web contient des caractères non numériques,id_web,823,14680-1
+web.xlsx,[ALERTE] WEB_SKU_NON_NUMERIQUE : Le SKU contient des caractères non numériques (ex: bon cadeau),sku,272,13127-1
+web.xlsx,[ALERTE] WEB_SKU_NON_NUMERIQUE : Le SKU contient des caractères non numériques (ex: bon cadeau),sku,842,bon-cadeau-25-euros
+web.xlsx,[BLOQUANT] WEB_TOTAL_SALES_INVALIDE : total_sales doit être un entier positif ou nul (>= 0),total_sales,1084,-56.0
+web.xlsx,[BLOQUANT] WEB_TOTAL_SALES_INVALIDE : total_sales doit être un entier positif ou nul (>= 0),total_sales,1087,-17.0
+web.xlsx,[ALERTE] WEB_SKU_NON_NUMERIQUE : Le SKU contient des caractères non numériques (ex: bon cadeau),sku,1117,13127-1
+web.xlsx,[ALERTE] WEB_SKU_NON_NUMERIQUE : Le SKU contient des caractères non numériques (ex: bon cadeau),sku,1387,bon-cadeau-25-euros

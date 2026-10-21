@@ -1,0 +1,302 @@
+fichier,regle,colonne,index_ligne,valeur
+erp.xlsx,Incohérence entre stock_quantity (>0 vs ==0) et stock_status ('instock' vs 'outofstock'),product_id,4,4039
+erp.xlsx,Incohérence entre stock_quantity (>0 vs ==0) et stock_status ('instock' vs 'outofstock'),stock_quantity,398,0
+erp.xlsx,Incohérence entre stock_quantity (>0 vs ==0) et stock_status ('instock' vs 'outofstock'),product_id,449,4973
+erp.xlsx,Incohérence entre stock_quantity (>0 vs ==0) et stock_status ('instock' vs 'outofstock'),product_id,573,5700
+erp.xlsx,La quantité en stock ne peut pas être négative,stock_quantity,449,-10
+erp.xlsx,La quantité en stock ne peut pas être négative,stock_quantity,573,-1
+erp.xlsx,Le prix de vente HT doit être strictement supérieur à 0,price,151,-20.0
+erp.xlsx,Le prix de vente HT doit être strictement supérieur à 0,price,469,-8.0
+erp.xlsx,Le prix de vente HT doit être strictement supérieur à 0,price,739,-9.1
+erp.xlsx,Produit marqué onsale_web=0 dans l'ERP mais pourtant présent dans l'export web.xlsx,product_id,123,4200
+erp.xlsx,Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx,product_id,242,4594
+erp.xlsx,Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx,product_id,486,5070
+erp.xlsx,Produit marqué onsale_web=1 dans l'ERP mais sans id_web dans liaison.xlsx,product_id,487,5075
+erp.xlsx,Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT),stock_quantity,151,0
+erp.xlsx,Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT),stock_quantity,210,97
+erp.xlsx,Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT),price,391,8.3
+erp.xlsx,Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT),price,469,-8.0
+erp.xlsx,Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT),price,724,92.0
+erp.xlsx,Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT),price,739,-9.1
+erp.xlsx,Vente à perte détectée : price (PV HT) est inférieur à purchase_price (PA HT),product_id,817,7196
+liaison.xlsx,id_web non numérique dans la table de liaison,id_web,443,bon-cadeau-25-euros
+liaison.xlsx,id_web non numérique dans la table de liaison,id_web,822,13127-1
+liaison.xlsx,id_web non numérique dans la table de liaison,id_web,823,14680-1
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,193,13771
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,236,15065
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,241,14785
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,355,12601
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,391,15154
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,394,14360
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,424,15608
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,425,15586
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,470,15272
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,473,15630
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,523,14648
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,540,14715
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,548,14730
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,613,14689
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,660,14379
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,661,15609
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,662,14377
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,664,13577
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,687,15529
+liaison.xlsx,id_web renseigné dans liaison.xlsx mais absent de web.xlsx,id_web,823,14680-1
+web.xlsx,Le SKU contient des caractères non numériques (ex: bon cadeau ou déclinaison),sku,272,13127-1
+web.xlsx,Le SKU contient des caractères non numériques (ex: bon cadeau ou déclinaison),sku,842,bon-cadeau-25-euros
+web.xlsx,Le SKU contient des caractères non numériques (ex: bon cadeau ou déclinaison),sku,1117,13127-1
+web.xlsx,Le SKU contient des caractères non numériques (ex: bon cadeau ou déclinaison),sku,1387,bon-cadeau-25-euros
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,8,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,20,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,30,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,37,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,41,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,47,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,55,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,75,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,94,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,127,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,130,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,136,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,153,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,162,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,169,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,184,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,198,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,199,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,244,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,264,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,269,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,290,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,319,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,339,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,352,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,359,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,364,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,373,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,376,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,379,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,409,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,421,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,425,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,515,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,522,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,541,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,550,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,557,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,602,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,612,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,622,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,639,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,640,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,666,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,678,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,696,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,703,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,714,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,717,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,726,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,778,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,797,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,819,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,822,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,829,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,836,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,944,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,947,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,968,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,971,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,987,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1005,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1018,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1045,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1065,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1084,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1086,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1087,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1098,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1135,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1137,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1151,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1194,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1231,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1244,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1254,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1263,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1301,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1329,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1332,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1384,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1429,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1432,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1445,
+web.xlsx,Le code article (sku) est manquant sur la ligne web,sku,1457,
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,8,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,20,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,30,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,37,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,41,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,47,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,55,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,75,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,94,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,127,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,130,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,136,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,153,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,162,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,169,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,184,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,198,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,199,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,244,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,264,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,269,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,290,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,319,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,339,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,352,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,359,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,364,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,373,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,376,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,379,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,409,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,421,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,425,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,515,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,522,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,541,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,550,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,557,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,602,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,612,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,622,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,639,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,640,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,666,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,678,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,696,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,703,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,714,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,717,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,726,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,778,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,797,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,819,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",downloadable,822,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,829,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,836,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,944,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,947,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,968,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,971,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,987,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1005,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1018,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1045,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1065,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1086,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1098,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1135,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1137,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1151,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1194,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1231,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1244,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1254,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1263,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1301,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1329,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1332,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1384,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1429,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1432,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1445,0
+web.xlsx,"Ligne fantôme dans l'export WooCommerce (sku, post_title et post_name tous vides)",virtual,1457,0
+web.xlsx,Une ligne avec post_type='product' doit avoir un post_title et un product_type renseignés,rating_count,1387,0
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,8,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,20,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,30,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,37,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,41,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,47,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,55,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,75,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,94,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,127,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,130,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,136,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,153,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,162,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,169,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,184,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,198,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,199,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,244,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,264,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,269,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,290,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,319,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,339,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,352,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,359,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,364,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,373,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,376,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,379,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,409,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,421,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,425,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,515,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,522,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,541,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,550,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,557,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,602,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,612,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,622,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,639,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,640,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,666,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,678,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,696,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,703,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,714,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,717,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,726,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,778,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,797,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,819,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,822,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,829,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,836,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,944,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,947,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,968,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,971,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,987,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1005,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1018,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1045,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1065,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1086,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1098,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1135,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1137,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1151,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1194,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1231,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1244,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1254,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1263,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1301,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1329,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1332,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1384,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1429,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1432,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1445,
+web.xlsx,[BLOQUANT] web_post_type_not_nullable,post_type,1457,
+web.xlsx,total_sales ne peut pas être négatif,total_sales,1084,-56.0
+web.xlsx,total_sales ne peut pas être négatif,total_sales,1087,-17.0

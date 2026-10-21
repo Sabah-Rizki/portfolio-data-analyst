@@ -1,0 +1,11 @@
+nom;theme;url
+CNIL - actualités (alerte Google site:cnil.fr);Réglementaire / RGPD;<adresse du flux RSS de ton alerte>
+Pandera - nouvelles versions;Outil;https://github.com/unionai-oss/pandera/releases.atom
+pandas - nouvelles versions;Outil;https://github.com/pandas-dev/pandas/releases.atom
+Great Expectations - nouvelles versions;Outil;https://github.com/great-expectations/great_expectations/releases.atom
+Alerte Google - pandera python data validation;Outil;<adresse du flux RSS de ton alerte>
+Alerte Google - data quality pandas validation;Méthode;<adresse du flux RSS de ton alerte>
+Alerte Google - package hallucination;IA;<adresse du flux RSS de ton alerte>
+Alerte Google - CNIL intelligence artificielle;Réglementaire / RGPD;<adresse du flux RSS de ton alerte>
+Alerte Google - gestion des stocks analyse de données;Métier;<adresse du flux RSS de ton alerte>
+Alerte Google - great expectations data quality;Outil;<adresse du flux RSS de ton alerte>

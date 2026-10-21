@@ -1,0 +1,58 @@
+version: 2
+
+sources:
+  - name: raw
+    database: OPENCLASSROOMS_DB
+    schema: RAW
+    tables:
+      - name: STUDENTS_RAW
+        description: "Données brutes des étudiants parcours Data"
+        columns:
+          - name: USER_ID
+            description: "Identifiant unique de l'étudiant"
+          - name: PATH_CATEGORY_NAME
+            description: "Catégorie du parcours"
+          - name: AGE_GROUP
+            description: "Tranche d'âge"
+          - name: GENDER
+            description: "Genre F/M/null"
+          - name: REGION
+            description: "Région française"
+          - name: YEAR_PATH_STARTED
+            description: "Année de début du parcours"
+
+      - name: INSEE_POPULATION_AGE
+        description: "Population active par tranche d'âge (INSEE 2022)"
+        columns:
+          - name: ANNEE
+            description: "Année de mesure"
+          - name: TRANCHE_AGE
+            description: "Tranche d'âge"
+          - name: TAUX_ACTIVITE_PCT
+            description: "Taux d'activité en %"
+          - name: POP_ACTIVE_MILLIERS
+            description: "Population active en milliers"
+
+      - name: INSEE_FEMMES_NUMERIQUE
+        description: "Part des femmes dans le numérique (INSEE 2021-2023)"
+        columns:
+          - name: INDICATEUR
+            description: "Nom de l'indicateur"
+          - name: VALEUR_PCT
+            description: "Valeur en %"
+          - name: ANNEE
+            description: "Année de mesure"
+
+      - name: INSEE_EMPLOI_REGION
+        description: "Emploi par région (INSEE fin 2022)"
+        columns:
+          - name: ANNEE
+            description: "Année de mesure"
+          - name: REGION
+            description: "Région française"
+          - name: EMPLOI_MILLIERS
+            description: "Nombre d'emplois en milliers"
+          - name: PART_EMPLOI_NATIONAL_PCT
+            description: "Part de l'emploi national en %"
+          - name: PART_POP_NATIONALE_PCT
+            description: "Part de la population nationale en %"

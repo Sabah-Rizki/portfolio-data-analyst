@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_students
+    description: "Modèle de staging nettoyé des étudiants Data OpenClassrooms"
+    columns:
+      - name: USER_ID
+        description: "Identifiant unique de l'étudiant"
+        tests:
+          - not_null
+
+      - name: YEAR_PATH_STARTED
+        description: "Année de début du parcours"
+        tests:
+          - not_null
+
+      - name: REGION
+        description: "Région française"
+        tests:
+          - not_null
+
+      - name: AGE_GROUP
+        description: "Tranche d'âge"
+        tests:
+          - not_null
+
+      - name: GENDER
+        description: "Genre de l'étudiant"
+        tests:
+          - not_null

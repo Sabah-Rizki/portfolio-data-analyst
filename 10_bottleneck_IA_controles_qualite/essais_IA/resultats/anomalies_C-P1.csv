@@ -1,0 +1,337 @@
+fichier,regle,colonne,index_ligne,valeur
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,19,86.1
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,66,100.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,68,88.4
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,208,225.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,214,85.6
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,227,176.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,228,108.5
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,230,157.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,231,104.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,240,109.6
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,242,144.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,410,102.3
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,411,137.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,460,217.5
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,465,105.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,466,105.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,475,112.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,476,86.8
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,486,84.7
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,545,92.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,551,83.7
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,556,124.8
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,598,175.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,635,191.3
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,650,93.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,651,122.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,652,114.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,697,135.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,702,105.6
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,703,116.4
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,708,115.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,709,121.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,710,99.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,711,115.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,712,121.0
+erp.xlsx,"[alerte] prix atypique (> Q3 + 1,5 × IQR)",price,724,92.0
+erp.xlsx,en vente web (onsale_web = 1) sans id_web dans liaison.xlsx,onsale_web,242,1
+erp.xlsx,en vente web (onsale_web = 1) sans id_web dans liaison.xlsx,onsale_web,486,1
+erp.xlsx,en vente web (onsale_web = 1) sans id_web dans liaison.xlsx,onsale_web,487,1
+erp.xlsx,prix d'achat ≥ prix de vente,purchase_price,151,10.33
+erp.xlsx,prix d'achat ≥ prix de vente,purchase_price,210,77.48
+erp.xlsx,prix d'achat ≥ prix de vente,purchase_price,391,9.99
+erp.xlsx,prix d'achat ≥ prix de vente,purchase_price,469,4.34
+erp.xlsx,prix d'achat ≥ prix de vente,purchase_price,724,99.0
+erp.xlsx,prix d'achat ≥ prix de vente,purchase_price,739,4.61
+erp.xlsx,prix d'achat ≥ prix de vente,purchase_price,817,31.2
+erp.xlsx,stock_status incohérent avec stock_quantity,stock_status,4,outofstock
+erp.xlsx,stock_status incohérent avec stock_quantity,stock_status,398,instock
+erp.xlsx,valeur < 0,stock_quantity,449,-10
+erp.xlsx,valeur < 0,stock_quantity,573,-1
+erp.xlsx,valeur ≤ 0,price,151,-20.0
+erp.xlsx,valeur ≤ 0,price,469,-8.0
+erp.xlsx,valeur ≤ 0,price,739,-9.1
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,193,13771
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,236,15065
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,241,14785
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,355,12601
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,391,15154
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,394,14360
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,424,15608
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,425,15586
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,470,15272
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,473,15630
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,523,14648
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,540,14715
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,548,14730
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,613,14689
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,660,14379
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,661,15609
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,662,14377
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,664,13577
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,687,15529
+liaison.xlsx,id_web absent des sku produits de web.xlsx,id_web,823,14680-1
+liaison.xlsx,valeur manquante,id_web,19,
+liaison.xlsx,valeur manquante,id_web,49,
+liaison.xlsx,valeur manquante,id_web,50,
+liaison.xlsx,valeur manquante,id_web,119,
+liaison.xlsx,valeur manquante,id_web,131,
+liaison.xlsx,valeur manquante,id_web,151,
+liaison.xlsx,valeur manquante,id_web,184,
+liaison.xlsx,valeur manquante,id_web,185,
+liaison.xlsx,valeur manquante,id_web,234,
+liaison.xlsx,valeur manquante,id_web,238,
+liaison.xlsx,valeur manquante,id_web,239,
+liaison.xlsx,valeur manquante,id_web,242,
+liaison.xlsx,valeur manquante,id_web,246,
+liaison.xlsx,valeur manquante,id_web,292,
+liaison.xlsx,valeur manquante,id_web,318,
+liaison.xlsx,valeur manquante,id_web,319,
+liaison.xlsx,valeur manquante,id_web,320,
+liaison.xlsx,valeur manquante,id_web,321,
+liaison.xlsx,valeur manquante,id_web,322,
+liaison.xlsx,valeur manquante,id_web,340,
+liaison.xlsx,valeur manquante,id_web,352,
+liaison.xlsx,valeur manquante,id_web,356,
+liaison.xlsx,valeur manquante,id_web,384,
+liaison.xlsx,valeur manquante,id_web,396,
+liaison.xlsx,valeur manquante,id_web,416,
+liaison.xlsx,valeur manquante,id_web,449,
+liaison.xlsx,valeur manquante,id_web,469,
+liaison.xlsx,valeur manquante,id_web,472,
+liaison.xlsx,valeur manquante,id_web,486,
+liaison.xlsx,valeur manquante,id_web,487,
+liaison.xlsx,valeur manquante,id_web,541,
+liaison.xlsx,valeur manquante,id_web,547,
+liaison.xlsx,valeur manquante,id_web,618,
+liaison.xlsx,valeur manquante,id_web,621,
+liaison.xlsx,valeur manquante,id_web,659,
+liaison.xlsx,valeur manquante,id_web,696,
+liaison.xlsx,valeur manquante,id_web,724,
+liaison.xlsx,valeur manquante,id_web,726,
+liaison.xlsx,valeur manquante,id_web,739,
+liaison.xlsx,valeur manquante,id_web,761,
+liaison.xlsx,valeur manquante,id_web,762,
+liaison.xlsx,valeur manquante,id_web,763,
+liaison.xlsx,valeur manquante,id_web,764,
+liaison.xlsx,valeur manquante,id_web,765,
+liaison.xlsx,valeur manquante,id_web,766,
+liaison.xlsx,valeur manquante,id_web,767,
+liaison.xlsx,valeur manquante,id_web,768,
+liaison.xlsx,valeur manquante,id_web,772,
+liaison.xlsx,valeur manquante,id_web,773,
+liaison.xlsx,valeur manquante,id_web,774,
+liaison.xlsx,valeur manquante,id_web,775,
+liaison.xlsx,valeur manquante,id_web,776,
+liaison.xlsx,valeur manquante,id_web,777,
+liaison.xlsx,valeur manquante,id_web,778,
+liaison.xlsx,valeur manquante,id_web,779,
+liaison.xlsx,valeur manquante,id_web,780,
+liaison.xlsx,valeur manquante,id_web,781,
+liaison.xlsx,valeur manquante,id_web,782,
+liaison.xlsx,valeur manquante,id_web,783,
+liaison.xlsx,valeur manquante,id_web,788,
+liaison.xlsx,valeur manquante,id_web,789,
+liaison.xlsx,valeur manquante,id_web,790,
+liaison.xlsx,valeur manquante,id_web,791,
+liaison.xlsx,valeur manquante,id_web,794,
+liaison.xlsx,valeur manquante,id_web,795,
+liaison.xlsx,valeur manquante,id_web,796,
+liaison.xlsx,valeur manquante,id_web,797,
+liaison.xlsx,valeur manquante,id_web,798,
+liaison.xlsx,valeur manquante,id_web,799,
+liaison.xlsx,valeur manquante,id_web,800,
+liaison.xlsx,valeur manquante,id_web,801,
+liaison.xlsx,valeur manquante,id_web,802,
+liaison.xlsx,valeur manquante,id_web,803,
+liaison.xlsx,valeur manquante,id_web,804,
+liaison.xlsx,valeur manquante,id_web,805,
+liaison.xlsx,valeur manquante,id_web,806,
+liaison.xlsx,valeur manquante,id_web,807,
+liaison.xlsx,valeur manquante,id_web,808,
+liaison.xlsx,valeur manquante,id_web,809,
+liaison.xlsx,valeur manquante,id_web,810,
+liaison.xlsx,valeur manquante,id_web,811,
+liaison.xlsx,valeur manquante,id_web,812,
+liaison.xlsx,valeur manquante,id_web,813,
+liaison.xlsx,valeur manquante,id_web,814,
+liaison.xlsx,valeur manquante,id_web,815,
+liaison.xlsx,valeur manquante,id_web,816,
+liaison.xlsx,valeur manquante,id_web,817,
+liaison.xlsx,valeur manquante,id_web,818,
+liaison.xlsx,valeur manquante,id_web,819,
+liaison.xlsx,valeur manquante,id_web,820,
+liaison.xlsx,valeur manquante,id_web,821,
+web.xlsx,valeur < 0,total_sales,1084,-56.0
+web.xlsx,valeur < 0,total_sales,1087,-17.0
+web.xlsx,valeur manquante,post_type,8,
+web.xlsx,valeur manquante,post_type,20,
+web.xlsx,valeur manquante,post_type,30,
+web.xlsx,valeur manquante,post_type,37,
+web.xlsx,valeur manquante,post_type,41,
+web.xlsx,valeur manquante,post_type,47,
+web.xlsx,valeur manquante,post_type,55,
+web.xlsx,valeur manquante,post_type,75,
+web.xlsx,valeur manquante,post_type,94,
+web.xlsx,valeur manquante,post_type,127,
+web.xlsx,valeur manquante,post_type,130,
+web.xlsx,valeur manquante,post_type,136,
+web.xlsx,valeur manquante,post_type,153,
+web.xlsx,valeur manquante,post_type,162,
+web.xlsx,valeur manquante,post_type,169,
+web.xlsx,valeur manquante,post_type,184,
+web.xlsx,valeur manquante,post_type,198,
+web.xlsx,valeur manquante,post_type,199,
+web.xlsx,valeur manquante,post_type,244,
+web.xlsx,valeur manquante,post_type,264,
+web.xlsx,valeur manquante,post_type,269,
+web.xlsx,valeur manquante,post_type,290,
+web.xlsx,valeur manquante,post_type,319,
+web.xlsx,valeur manquante,post_type,339,
+web.xlsx,valeur manquante,post_type,352,
+web.xlsx,valeur manquante,post_type,359,
+web.xlsx,valeur manquante,post_type,364,
+web.xlsx,valeur manquante,post_type,373,
+web.xlsx,valeur manquante,post_type,376,
+web.xlsx,valeur manquante,post_type,379,
+web.xlsx,valeur manquante,post_type,409,
+web.xlsx,valeur manquante,post_type,421,
+web.xlsx,valeur manquante,post_type,425,
+web.xlsx,valeur manquante,post_type,515,
+web.xlsx,valeur manquante,post_type,522,
+web.xlsx,valeur manquante,post_type,541,
+web.xlsx,valeur manquante,post_type,550,
+web.xlsx,valeur manquante,post_type,557,
+web.xlsx,valeur manquante,post_type,602,
+web.xlsx,valeur manquante,post_type,612,
+web.xlsx,valeur manquante,post_type,622,
+web.xlsx,valeur manquante,post_type,639,
+web.xlsx,valeur manquante,post_type,640,
+web.xlsx,valeur manquante,post_type,666,
+web.xlsx,valeur manquante,post_type,678,
+web.xlsx,valeur manquante,post_type,696,
+web.xlsx,valeur manquante,post_type,703,
+web.xlsx,valeur manquante,post_type,714,
+web.xlsx,valeur manquante,post_type,717,
+web.xlsx,valeur manquante,post_type,726,
+web.xlsx,valeur manquante,post_type,778,
+web.xlsx,valeur manquante,post_type,797,
+web.xlsx,valeur manquante,post_type,819,
+web.xlsx,valeur manquante,post_type,822,
+web.xlsx,valeur manquante,post_type,829,
+web.xlsx,valeur manquante,post_type,836,
+web.xlsx,valeur manquante,post_type,944,
+web.xlsx,valeur manquante,post_type,947,
+web.xlsx,valeur manquante,post_type,968,
+web.xlsx,valeur manquante,post_type,971,
+web.xlsx,valeur manquante,post_type,987,
+web.xlsx,valeur manquante,post_type,1005,
+web.xlsx,valeur manquante,post_type,1018,
+web.xlsx,valeur manquante,post_type,1045,
+web.xlsx,valeur manquante,post_type,1065,
+web.xlsx,valeur manquante,post_type,1086,
+web.xlsx,valeur manquante,post_type,1098,
+web.xlsx,valeur manquante,post_type,1135,
+web.xlsx,valeur manquante,post_type,1137,
+web.xlsx,valeur manquante,post_type,1151,
+web.xlsx,valeur manquante,post_type,1194,
+web.xlsx,valeur manquante,post_type,1231,
+web.xlsx,valeur manquante,post_type,1244,
+web.xlsx,valeur manquante,post_type,1254,
+web.xlsx,valeur manquante,post_type,1263,
+web.xlsx,valeur manquante,post_type,1301,
+web.xlsx,valeur manquante,post_type,1329,
+web.xlsx,valeur manquante,post_type,1332,
+web.xlsx,valeur manquante,post_type,1384,
+web.xlsx,valeur manquante,post_type,1429,
+web.xlsx,valeur manquante,post_type,1432,
+web.xlsx,valeur manquante,post_type,1445,
+web.xlsx,valeur manquante,post_type,1457,
+web.xlsx,valeur manquante,sku,8,
+web.xlsx,valeur manquante,sku,20,
+web.xlsx,valeur manquante,sku,30,
+web.xlsx,valeur manquante,sku,37,
+web.xlsx,valeur manquante,sku,41,
+web.xlsx,valeur manquante,sku,47,
+web.xlsx,valeur manquante,sku,55,
+web.xlsx,valeur manquante,sku,75,
+web.xlsx,valeur manquante,sku,94,
+web.xlsx,valeur manquante,sku,127,
+web.xlsx,valeur manquante,sku,130,
+web.xlsx,valeur manquante,sku,136,
+web.xlsx,valeur manquante,sku,153,
+web.xlsx,valeur manquante,sku,162,
+web.xlsx,valeur manquante,sku,169,
+web.xlsx,valeur manquante,sku,184,
+web.xlsx,valeur manquante,sku,198,
+web.xlsx,valeur manquante,sku,199,
+web.xlsx,valeur manquante,sku,244,
+web.xlsx,valeur manquante,sku,264,
+web.xlsx,valeur manquante,sku,269,
+web.xlsx,valeur manquante,sku,290,
+web.xlsx,valeur manquante,sku,319,
+web.xlsx,valeur manquante,sku,339,
+web.xlsx,valeur manquante,sku,352,
+web.xlsx,valeur manquante,sku,359,
+web.xlsx,valeur manquante,sku,364,
+web.xlsx,valeur manquante,sku,373,
+web.xlsx,valeur manquante,sku,376,
+web.xlsx,valeur manquante,sku,379,
+web.xlsx,valeur manquante,sku,409,
+web.xlsx,valeur manquante,sku,421,
+web.xlsx,valeur manquante,sku,425,
+web.xlsx,valeur manquante,sku,515,
+web.xlsx,valeur manquante,sku,522,
+web.xlsx,valeur manquante,sku,541,
+web.xlsx,valeur manquante,sku,550,
+web.xlsx,valeur manquante,sku,557,
+web.xlsx,valeur manquante,sku,602,
+web.xlsx,valeur manquante,sku,612,
+web.xlsx,valeur manquante,sku,622,
+web.xlsx,valeur manquante,sku,639,
+web.xlsx,valeur manquante,sku,640,
+web.xlsx,valeur manquante,sku,666,
+web.xlsx,valeur manquante,sku,678,
+web.xlsx,valeur manquante,sku,696,
+web.xlsx,valeur manquante,sku,703,
+web.xlsx,valeur manquante,sku,714,
+web.xlsx,valeur manquante,sku,717,
+web.xlsx,valeur manquante,sku,726,
+web.xlsx,valeur manquante,sku,778,
+web.xlsx,valeur manquante,sku,797,
+web.xlsx,valeur manquante,sku,819,
+web.xlsx,valeur manquante,sku,822,
+web.xlsx,valeur manquante,sku,829,
+web.xlsx,valeur manquante,sku,836,
+web.xlsx,valeur manquante,sku,944,
+web.xlsx,valeur manquante,sku,947,
+web.xlsx,valeur manquante,sku,968,
+web.xlsx,valeur manquante,sku,971,
+web.xlsx,valeur manquante,sku,987,
+web.xlsx,valeur manquante,sku,1005,
+web.xlsx,valeur manquante,sku,1018,
+web.xlsx,valeur manquante,sku,1045,
+web.xlsx,valeur manquante,sku,1065,
+web.xlsx,valeur manquante,sku,1084,
+web.xlsx,valeur manquante,sku,1084,
+web.xlsx,valeur manquante,sku,1086,
+web.xlsx,valeur manquante,sku,1087,
+web.xlsx,valeur manquante,sku,1087,
+web.xlsx,valeur manquante,sku,1098,
+web.xlsx,valeur manquante,sku,1135,
+web.xlsx,valeur manquante,sku,1137,
+web.xlsx,valeur manquante,sku,1151,
+web.xlsx,valeur manquante,sku,1194,
+web.xlsx,valeur manquante,sku,1231,
+web.xlsx,valeur manquante,sku,1244,
+web.xlsx,valeur manquante,sku,1254,
+web.xlsx,valeur manquante,sku,1263,
+web.xlsx,valeur manquante,sku,1301,
+web.xlsx,valeur manquante,sku,1329,
+web.xlsx,valeur manquante,sku,1332,
+web.xlsx,valeur manquante,sku,1384,
+web.xlsx,valeur manquante,sku,1429,
+web.xlsx,valeur manquante,sku,1432,
+web.xlsx,valeur manquante,sku,1445,
+web.xlsx,valeur manquante,sku,1457,

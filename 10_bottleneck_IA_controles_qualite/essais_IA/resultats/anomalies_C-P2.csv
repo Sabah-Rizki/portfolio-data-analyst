@@ -1,0 +1,253 @@
+fichier,regle,colonne,index_ligne,valeur
+erp,BLOQUANT | ERP-09 | price <= 0,price,151,-20.0
+erp,BLOQUANT | ERP-09 | price <= 0,price,469,-8.0
+erp,BLOQUANT | ERP-09 | price <= 0,price,739,-9.1
+erp,BLOQUANT | ERP-14 | stock_quantity < 0,stock_quantity,449,-10
+erp,BLOQUANT | ERP-14 | stock_quantity < 0,stock_quantity,573,-1
+erp,BLOQUANT | ERP-17 | stock_status incohérent avec stock_quantity,stock_status,4,outofstock
+erp,BLOQUANT | ERP-17 | stock_status incohérent avec stock_quantity,stock_status,398,instock
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,193,13771
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,236,15065
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,241,14785
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,355,12601
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,391,15154
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,394,14360
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,424,15608
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,425,15586
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,470,15272
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,473,15630
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,523,14648
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,540,14715
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,548,14730
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,613,14689
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,660,14379
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,661,15609
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,662,14377
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,664,13577
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,687,15529
+liaison,BLOQUANT | X-03 | id_web absent des produits du site (inter-fichiers),id_web,823,14680-1
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,8,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,20,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,30,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,37,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,41,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,47,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,55,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,75,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,94,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,127,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,130,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,136,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,153,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,162,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,169,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,184,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,198,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,199,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,244,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,264,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,269,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,290,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,319,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,339,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,352,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,359,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,364,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,373,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,376,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,379,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,409,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,421,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,425,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,515,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,522,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,541,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,550,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,557,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,602,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,612,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,622,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,639,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,640,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,666,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,678,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,696,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,703,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,714,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,717,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,726,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,778,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,797,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,819,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,822,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,829,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,836,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,944,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,947,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,968,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,971,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,987,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1005,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1018,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1045,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1065,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1084,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1086,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1087,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1098,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1135,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1137,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1151,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1194,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1231,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1244,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1254,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1263,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1301,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1329,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1332,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1384,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1429,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1432,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1445,
+web,BLOQUANT | WEB-01 | sku manquant (hors ligne entièrement vide),sku,1457,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,8,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,20,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,30,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,37,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,41,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,47,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,55,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,75,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,94,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,127,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,130,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,136,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,153,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,162,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,169,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,184,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,198,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,199,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,244,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,264,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,269,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,290,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,319,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,339,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,352,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,359,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,364,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,373,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,376,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,379,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,409,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,421,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,425,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,515,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,522,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,541,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,550,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,557,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,602,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,612,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,622,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,639,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,640,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,666,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,678,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,696,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,703,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,714,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,717,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,726,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,778,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,797,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,819,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,822,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,829,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,836,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,944,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,947,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,968,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,971,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,987,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1005,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1018,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1045,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1065,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1086,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1098,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1135,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1137,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1151,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1194,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1231,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1244,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1254,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1263,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1301,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1329,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1332,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1384,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1429,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1432,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1445,
+web,BLOQUANT | WEB-08 | post_type manquant (hors ligne entièrement vide),post_type,1457,
+web,BLOQUANT | WEB-12 | total_sales < 0,total_sales,1084,-56.0
+web,BLOQUANT | WEB-12 | total_sales < 0,total_sales,1087,-17.0
+erp,ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative),price,151,-20.0
+erp,ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative),price,210,12.65
+erp,ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative),price,391,8.3
+erp,ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative),price,469,-8.0
+erp,ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative),price,724,92.0
+erp,ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative),price,739,-9.1
+erp,ALERTE | ERP-10 | price <= purchase_price (marge nulle ou négative),price,817,31.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,19,86.1
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,66,100.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,68,88.4
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,208,225.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,214,85.6
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,227,176.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,228,108.5
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,230,157.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,231,104.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,240,109.6
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,242,144.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,410,102.3
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,411,137.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,460,217.5
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,465,105.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,466,105.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,475,112.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,476,86.8
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,486,84.7
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,545,92.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,551,83.7
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,556,124.8
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,598,175.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,635,191.3
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,650,93.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,651,122.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,652,114.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,697,135.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,702,105.6
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,703,116.4
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,708,115.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,709,121.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,710,99.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,711,115.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,712,121.0
+erp,"ALERTE | ERP-11 | price atypique (> Q3 + 1,5 x IQR = 83.10 EUR)",price,724,92.0
+liaison,ALERTE | LIA-05 | id_web non numérique,id_web,443,bon-cadeau-25-euros
+liaison,ALERTE | LIA-05 | id_web non numérique,id_web,822,13127-1
+liaison,ALERTE | LIA-05 | id_web non numérique,id_web,823,14680-1
+liaison,ALERTE | X-04 | id_web vide alors que onsale_web = 1 (inter-fichiers),id_web,242,
+liaison,ALERTE | X-04 | id_web vide alors que onsale_web = 1 (inter-fichiers),id_web,486,
+liaison,ALERTE | X-04 | id_web vide alors que onsale_web = 1 (inter-fichiers),id_web,487,
+liaison,ALERTE | X-05 | onsale_web = 0 mais produit publié sur le site (inter-fichiers),id_web,123,16295
+web,ALERTE | WEB-03 | sku non numérique,sku,272,13127-1
+web,ALERTE | WEB-03 | sku non numérique,sku,842,bon-cadeau-25-euros
+web,ALERTE | WEB-03 | sku non numérique,sku,1117,13127-1
+web,ALERTE | WEB-03 | sku non numérique,sku,1387,bon-cadeau-25-euros
+web,ALERTE | WEB-14 | product_type manquant sur une ligne produit,product_type,1387,
