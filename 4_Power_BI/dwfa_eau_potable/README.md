@@ -1,4 +1,4 @@
-# 07 · DWFA : tableau de bord sur l'accès à l'eau potable
+# DWFA : tableau de bord sur l'accès à l'eau potable
 
 **Contexte.** Drinking Water For All (ONG fictive) veut identifier les pays où agir en priorité pour l'accès à l'eau potable.
 

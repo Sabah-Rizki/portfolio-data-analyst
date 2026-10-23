@@ -1,6 +1,6 @@
-# 10 · BottleNeck amélioré avec l'IA : contrôles qualité et analyse critique
+# BottleNeck amélioré avec l'IA : contrôles qualité et analyse critique
 
-**Contexte.** Projet de fin de parcours : reprendre le [projet 03](../03_bottleneck_analyse_stocks_Python/) en utilisant l'IA de façon critique et documentée.
+**Contexte.** Projet de fin de parcours : reprendre le [projet BottleNeck d'origine](../bottleneck_analyse_stocks/) en utilisant l'IA de façon critique et documentée.
 
 **Ma mission.** Comparer deux IA sur un protocole mesuré, en retenir le meilleur code, l'intégrer à un notebook amélioré, et documenter toute la démarche (veille, cahier des charges, gestion de projet, formation, limites).
 

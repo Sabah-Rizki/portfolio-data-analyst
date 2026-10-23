@@ -1,4 +1,4 @@
-# 03 · BottleNeck : analyse des stocks et des ventes d'un caviste
+# BottleNeck : analyse des stocks et des ventes d'un caviste
 
 **Contexte.** BottleNeck, caviste en ligne (fictif), a deux systèmes qui ne se parlent pas : l'ERP (prix, stocks) et la boutique WooCommerce (ventes). Une table de liaison, tenue à la main, fait le lien.
 
@@ -16,7 +16,7 @@
 
 ## Pour aller plus loin
 
-Ce projet est repris de façon critique dans le [projet 10](../10_bottleneck_IA_controles_qualite/) : contrôles qualité automatisés, analyse des stocks dormants, hypothèses explicites sur la période des ventes, et correction de plusieurs conclusions de cette première version.
+Ce projet est repris de façon critique dans le [projet BottleNeck amélioré avec l'IA](../bottleneck_IA_controles_qualite/) : contrôles qualité automatisés, analyse des stocks dormants, hypothèses explicites sur la période des ventes, et correction de plusieurs conclusions de cette première version.
 
 ## Fichiers
 

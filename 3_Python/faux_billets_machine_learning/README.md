@@ -1,4 +1,4 @@
-# 09 · Détection automatique de faux billets
+# Détection automatique de faux billets
 
 **Contexte.** L'ONCFM (organisme fictif de lutte contre le faux-monnayage) dispose d'une machine qui mesure 6 dimensions de chaque billet. Il veut une application qui dise « vrai » ou « faux ».
 

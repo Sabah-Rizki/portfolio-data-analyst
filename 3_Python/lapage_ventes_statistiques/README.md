@@ -1,4 +1,4 @@
-# 06 · Lapage : analyse des ventes d'une librairie en ligne
+# Lapage : analyse des ventes d'une librairie en ligne
 
 **Contexte.** Lapage (librairie fictive) veut comprendre son activité en ligne de mars 2021 à février 2023 et le comportement de ses clients.
 

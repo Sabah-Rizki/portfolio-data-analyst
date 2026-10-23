@@ -1,4 +1,4 @@
-# 05 · Évolution des profils des étudiants Data (dbt + Snowflake)
+# Évolution des profils des étudiants Data (dbt + Snowflake)
 
 **Contexte.** OpenClassrooms veut objectiver l'évolution du profil de ses étudiants Data entre 2022 et 2025 : âge, genre, région.
 

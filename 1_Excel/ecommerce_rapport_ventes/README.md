@@ -1,4 +1,4 @@
-# 01 · Rapport mensuel des ventes d'un site e-commerce
+# Rapport mensuel des ventes d'un site e-commerce
 
 **Contexte.** Une boutique en ligne a abandonné le high-tech pour l'alimentaire et les biens de consommation. La direction veut savoir si ce virage est réussi.
 

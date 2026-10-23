@@ -1,4 +1,4 @@
-# 04 · Sanitoral : tableau de bord de suivi de projets
+# Sanitoral : tableau de bord de suivi de projets
 
 **Contexte.** Le service PMO de Sanitoral (entreprise fictive) suit des projets IT et Marketing dans 4 régions du monde, de 2018 à 2022. Les directeurs veulent repérer vite les projets qui dérapent.
 

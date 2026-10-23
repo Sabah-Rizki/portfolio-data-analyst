@@ -1,4 +1,4 @@
-# 02 · DATAImmo : base de données du marché immobilier
+# DATAImmo : base de données du marché immobilier
 
 **Contexte.** Laplace Immo (entreprise fictive) veut une base centralisée pour analyser les ventes immobilières françaises, à partir des Demandes de Valeurs Foncières (open data DGFiP) du 1er semestre 2020.
 

@@ -18,16 +18,22 @@ Trois fichiers, à garder dans un même dossier (par exemple `Documents\P13_veil
    - Nombre de résultats : **Uniquement les meilleurs résultats**
    - Distribuer à : choisis **Flux RSS** si l'option est proposée, sinon ton adresse e-mail
 4. Clique sur **Créer l'alerte**.
-5. Recommence pour les 5 autres requêtes (copie-les telles quelles, guillemets compris) :
+5. Recommence pour les autres requêtes (copie-les telles quelles, guillemets compris) :
    - `"great expectations" ("data quality" OR "data validation" OR "data pipeline")`
    - `"data quality" pandas validation -job -hiring -emploi`
    - `"package hallucination" OR "hallucinated packages" OR "slopsquatting"`
    - `CNIL "intelligence artificielle"`
-   - `"gestion des stocks" ("analyse de données" OR "data analyst" OR "supply chain")`
+   - `"gestion des stocks" ("analyse de données" OR "data analyst" OR "supply chain") -emploi -recrutement -postes`
+
+   Puis les 4 alertes **métier** (marché du vin) :
+   - `"marché du vin" (consommation OR ventes OR prix) -emploi`
+   - `("vente de vin en ligne" OR "e-commerce du vin" OR "caviste en ligne") -emploi -recrutement`
+   - `site:franceagrimer.fr vin`
+   - `"vente d'alcool" (internet OR "en ligne") (loi OR réglementation)`
 
    Vérifie l'**aperçu** sous chaque requête : s'il parle d'autre chose que de données (film, sport, emploi…), ajoute un mot à exclure avec le signe moins, par exemple `-film`.
 6. Si tu as choisi **Flux RSS** : sur la page google.com/alerts, à côté de chaque alerte, une **icône RSS** apparaît. Fais un clic droit dessus → **Copier l'adresse du lien**, puis colle-la dans `sources.csv`, colonne `url`, sur la ligne de l'alerte correspondante.
-7. Fais une **capture d'écran** de la page google.com/alerts avec tes 6 alertes : c'est une preuve pour le PDF.
+7. Fais une **capture d'écran** de la page google.com/alerts avec toutes tes alertes : c'est une preuve pour le PDF.
 
 ## Étape 2 — Premier lancement du script (2 minutes)
 

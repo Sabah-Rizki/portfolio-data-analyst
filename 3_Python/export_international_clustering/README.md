@@ -1,4 +1,4 @@
-# 08 · Export international : où vendre des poulets bio ?
+# Export international : où vendre des poulets bio ?
 
 **Contexte.** La Poule qui chante (entreprise fictive) veut exporter ses poulets bio et cherche des groupes de pays cibles, avec une méthode qu'elle pourra relancer dans deux ans.
 
