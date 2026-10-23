@@ -4,6 +4,7 @@ Nettoyage, contrôle qualité, statistiques, analyse multivariée, machine learn
 
 | Projet | En bref |
 |---|---|
+| [Santé publique : la sous-nutrition dans le monde](sante_publique_FAO/) | 4 sources FAO croisées, indicateurs de disponibilité alimentaire |
 | [BottleNeck : stocks et ventes d'un caviste](bottleneck_analyse_stocks/) | Rapprochement ERP et site, CA, stock, marges |
 | [Lapage : ventes d'une librairie en ligne](lapage_ventes_statistiques/) | Pareto, Lorenz, tests statistiques |
 | [Export international : où vendre ?](export_international_clustering/) | ACP, classification hiérarchique et k-means |

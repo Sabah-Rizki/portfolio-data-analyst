@@ -17,5 +17,6 @@
 ## Fichiers
 
 - [tableau_de_bord_eau_potable.pbix](tableau_de_bord_eau_potable.pbix) : à ouvrir avec Power BI Desktop (gratuit).
-- [blueprint.docx](blueprint.docx) : la conception du tableau de bord.
+- [blueprint.pdf](blueprint.pdf) : la conception du tableau de bord.
+- [presentation.pdf](presentation.pdf) : la restitution.
 - [theme_haut_contraste.json](theme_haut_contraste.json) : le thème Power BI.

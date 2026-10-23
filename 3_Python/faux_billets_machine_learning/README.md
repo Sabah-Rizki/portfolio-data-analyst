@@ -4,31 +4,31 @@
 
 **Ma mission.** Comparer 4 méthodes, choisir la plus adaptée et livrer une application utilisable.
 
-**Outils.** Python, scikit-learn, statsmodels, joblib.
+**Outils.** Python, scikit-learn, joblib, Streamlit.
 
 ## Démarche
 
-1. **Contrôle qualité** : 1 500 billets, 37 valeurs manquantes sur une seule mesure, aucun doublon.
-2. **Imputation par régression** plutôt que par la moyenne (erreur réduite de 28 % en validation croisée), intégrée au pipeline pour fonctionner aussi en production.
-3. **Protocole honnête** : découpage stratifié 75/25, réglage par validation croisée sur le seul jeu d'entraînement, évaluation finale unique.
-4. **4 modèles** : régression logistique, KNN, Random Forest, k-means.
+1. **Contrôle qualité** : 1 500 billets (1 000 vrais, 500 faux), aucun doublon, 37 valeurs manquantes sur la marge basse.
+2. **Imputation par régression linéaire** à partir des 5 autres mesures, sans utiliser l'étiquette vrai/faux, inconnue en production.
+3. **Découpage stratifié** 80/20 (1 200 billets d'apprentissage, 300 de test), standardisation, réglage par validation croisée.
+4. **4 modèles** : k-means (non supervisé), régression logistique, KNN, Random Forest.
 
-## Résultats sur le jeu de test (375 billets, dont 125 faux)
+## Résultats
 
-| Modèle | Faux détectés | Fausses alertes |
+Sur le jeu de test (300 billets, dont 100 faux), les 4 modèles dépassent 98 % de bonnes réponses : l'écart n'est que de 2 à 3 erreurs. Ils ont donc été départagés par une validation croisée à 10 plis :
+
+| Modèle | Exactitude | Faux billets détectés |
 |---|---|---|
-| Régression logistique | 121 / 125 | 0 |
-| KNN (k = 3) | 121 / 125 | 0 |
-| Random Forest | 120 / 125 | 1 |
-| K-means | 121 / 125 | 1 |
+| Régression logistique | 99,13 % | 98,2 % |
+| Random Forest | 99,13 % | 98,0 % |
+| KNN (k = 12) | 99,00 % | 97,8 % |
 
-**Modèle retenu : la régression logistique.** Elle est au meilleur niveau, explicable (ses coefficients disent pourquoi un billet est jugé faux) et donne une vraie probabilité par billet.
+**Modèle retenu : la régression logistique.** Elle est au meilleur niveau, explicable (la longueur et la marge basse pèsent le plus), donne une vraie probabilité par billet et reste simple à maintenir.
 
 ![Coefficients de la régression logistique](images/coefficients.png)
 
 ## Fichiers
 
 - [notebook_analyse.ipynb](notebook_analyse.ipynb) : l'analyse complète.
-- [application_detection.py](application_detection.py) : l'application. Exemple : `python application_detection.py billets_production.csv`
-- [modele_faux_billets.joblib](modele_faux_billets.joblib) : le modèle entraîné.
-- [presentation.pdf](presentation.pdf) : la restitution.
+- [application/](application/) : l'application de prédiction. Exemple : `python predict_billets.py --csv billets_production.csv` ; interface de démonstration : `streamlit run app_streamlit.py`.
+- [presentation.pptx](presentation.pptx) : la restitution.

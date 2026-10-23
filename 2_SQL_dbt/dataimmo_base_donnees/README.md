@@ -16,6 +16,7 @@
 
 ## Fichiers
 
-- [presentation_DATAImmo.pdf](presentation_DATAImmo.pdf) : la démarche, le schéma, le dictionnaire de données et les 12 requêtes avec leurs résultats.
+- [presentation_DATAImmo.pdf](presentation_DATAImmo.pdf) : la démarche, le schéma et les 12 requêtes avec leurs résultats.
+- [dictionnaire_de_donnees.pdf](dictionnaire_de_donnees.pdf) : le dictionnaire des données.
 
 *Données open data (DGFiP, INSEE, MEN-ESR) ; la base n'est pas redistribuée ici.*

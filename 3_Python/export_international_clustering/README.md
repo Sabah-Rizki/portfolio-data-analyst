@@ -24,6 +24,6 @@ Le Koweït et l'Arabie saoudite (pays riches, gros consommateurs, dépendants de
 
 - [1_preparation_exploration.ipynb](1_preparation_exploration.ipynb) : assemblage, nettoyage, exploration.
 - [2_clustering.ipynb](2_clustering.ipynb) : ACP, classification, score des marchés.
-- [presentation.pptx](presentation.pptx) : la restitution au comité de direction.
+- [presentation.pdf](presentation.pdf) : la restitution au comité de direction.
 
 *Données open data (FAO, Banque mondiale) ; non redistribuées ici.*

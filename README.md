@@ -19,6 +19,7 @@ Master 2 Supply Chain Internationale (Paris Dauphine-PSL) · Certification HEC P
 
 | Projet | Problème métier | Outils | Résultat clé |
 |---|---|---|---|
+| [Assurance habitation : requêtes SQL](2_SQL_dbt/assurance_habitation_requetes/) | Analyser un portefeuille de contrats par territoire | MySQL, SQL Power Architect | Base de 2 tables (30 335 contrats, 38 916 communes), 12 requêtes |
 | [DATAImmo : base de données immobilière](2_SQL_dbt/dataimmo_base_donnees/) | Centraliser les ventes immobilières françaises pour les analyser | SQLite, Power Query, modélisation | Schéma normalisé en 3NF, 4 tables, 12 requêtes d'analyse |
 | [Profils des étudiants Data](2_SQL_dbt/profils_etudiants_dbt_snowflake/) | Objectiver l'évolution des profils sur 4 ans, dans le respect du RGPD | dbt, Snowflake | Pipeline testé (5 modèles, 5 tests), 4 647 étudiants, export agrégé |
 
@@ -26,10 +27,11 @@ Master 2 Supply Chain Internationale (Paris Dauphine-PSL) · Certification HEC P
 
 | Projet | Problème métier | Outils | Résultat clé |
 |---|---|---|---|
+| [Santé publique : la sous-nutrition dans le monde](3_Python/sante_publique_FAO/) | Comprendre pourquoi la faim persiste alors que la production suffit | pandas, matplotlib | 535,7 millions de personnes sous-alimentées en 2017 ; capacité de 1,23 fois la population |
 | [BottleNeck : stocks et ventes d'un caviste](3_Python/bottleneck_analyse_stocks/) | Rapprocher l'ERP et la boutique en ligne pour piloter le stock | pandas | 714 produits rapprochés, CA de 143 680 € |
 | [Lapage : ventes d'une librairie en ligne](3_Python/lapage_ventes_statistiques/) | Comprendre l'activité et les clients sur deux ans | pandas, SciPy | 21,5 % des références font 80 % du CA ; tests du khi-deux, de Spearman et de Kruskal-Wallis |
 | [Export international : où vendre ?](3_Python/export_international_clustering/) | Choisir les pays cibles pour exporter des poulets bio | ACP, classification | 164 pays, 4 groupes, 3 marchés recommandés |
-| [Détection de faux billets](3_Python/faux_billets_machine_learning/) | Repérer automatiquement les faux billets | scikit-learn | Régression logistique : 121 faux sur 125 détectés, aucune fausse alerte |
+| [Détection de faux billets](3_Python/faux_billets_machine_learning/) | Repérer automatiquement les faux billets | scikit-learn | 4 modèles au-delà de 98 % ; régression logistique retenue (99,1 % en validation croisée) |
 | [BottleNeck amélioré avec l'IA](3_Python/bottleneck_IA_controles_qualite/) | Fiabiliser les données avec l'IA, de façon critique et mesurée | Pandera, Claude, Gemini | 64 règles de contrôle, 325 anomalies détectées, IA évaluée sur banc de test |
 
 Les deux projets BottleNeck portent sur le même client : le second reprend le premier avec un regard critique, des contrôles automatisés et une IA évaluée.

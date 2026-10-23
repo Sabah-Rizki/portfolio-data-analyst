@@ -4,6 +4,7 @@ Modélisation relationnelle, requêtes d'analyse, pipelines de transformation te
 
 | Projet | En bref |
 |---|---|
+| [Assurance habitation : requêtes SQL (MySQL)](assurance_habitation_requetes/) | Dictionnaire, schéma, 12 requêtes commentées |
 | [DATAImmo : base de données immobilière (SQLite)](dataimmo_base_donnees/) | Schéma en 3NF, contrôles d'intégrité, 12 requêtes |
 | [Profils des étudiants Data (dbt, Snowflake)](profils_etudiants_dbt_snowflake/) | 5 modèles, 5 tests, export agrégé de 862 lignes |
 
