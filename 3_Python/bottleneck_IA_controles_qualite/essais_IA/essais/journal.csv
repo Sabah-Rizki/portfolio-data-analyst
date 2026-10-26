@@ -2,6 +2,6 @@ essai,outil,modele,mode,date_heure_lancement,duree_reponse_s,outils_utilises_par
 C-P1,Claude,claude-opus-5-5,sous-agent au contexte vierge (sans conversation, sans fichiers),2026-10-18T16:51:54+02:00,230.5,0,essai_C-P1.md
 C-P2bis,Claude,claude-opus-5-5,sous-agent au contexte vierge (sans conversation, sans fichiers),2026-10-18T16:51:54+02:00,336.0,0,essai_C-P2bis.md
 C-P2,Claude,claude-opus-5-5,sous-agent au contexte vierge (sans conversation, sans fichiers),2026-10-18T16:51:54+02:00,418.2,0,essai_C-P2.md
-G-P1,Gemini,Gemini 4 Argon (reflexion par defaut),chat temporaire gemini.google.com,2026-10-20T16:35+02:00,a_completer,0,essai_G-P1.md
-G-P2,Gemini,Gemini 4 Argon (reflexion par defaut),chat temporaire gemini.google.com,2026-10-20T16:47+02:00,a_completer,0,essai_G-P2.md
-G-P2bis,Gemini,Gemini 4 Argon (reflexion par defaut),chat temporaire gemini.google.com,2026-10-20T16:53+02:00,a_completer,0,essai_G-P2bis.md
+G-P1,Gemini,Gemini 4 Argon (reflexion par defaut),chat temporaire gemini.google.com,2026-10-20T16:35+02:00,60 (environ; relevé manuel),0,essai_G-P1.md
+G-P2,Gemini,Gemini 4 Argon (reflexion par defaut),chat temporaire gemini.google.com,2026-10-20T16:47+02:00,60 (environ; relevé manuel),0,essai_G-P2.md
+G-P2bis,Gemini,Gemini 4 Argon (reflexion par defaut),chat temporaire gemini.google.com,2026-10-20T16:53+02:00,60 (environ; relevé manuel),0,essai_G-P2bis.md
